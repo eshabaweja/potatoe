@@ -126,13 +126,22 @@ header a:hover{
 /*Boxes*/
 #boxes{
     margin-top: 20px;
+    align-items: center;
 }
 
 #boxes .box{
-    float: left;
-    width: 30%;
+    width: 500px;
     padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
     text-align: center;
+    box-shadow: 0 0 24px -16px;
+}
+
+.box:hover{
+    background-color: #815fa8;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 /*sidebar*/
